@@ -1,0 +1,1 @@
+GPTAGENTBASEURL = 'https://chatapi.littlewheat.com'
