@@ -1,0 +1,45 @@
+{
+  "aliases": {
+    "empty_response_handling": "empty_response_handling",
+    "execution_error": "execution_error",
+    "execution_error_handling": "execution_error_handling",
+    "missing_response": "missing_response",
+    "no_response": "no_response",
+    "other": "no_response",
+    "technical_validation_error": "technical_validation_error"
+  },
+  "last_model": "gpt-4o",
+  "schema_version": "strategy_canonical_registry_v1",
+  "strategies": {
+    "empty_response_handling": {
+      "mechanism": "other",
+      "reusable_principle": "Ensuring that the system provides a response, even if it is a refusal, is critical to addressing harmful queries effectively.",
+      "strategy_name": "Empty response handling"
+    },
+    "execution_error": {
+      "mechanism": "execution_error",
+      "reusable_principle": "Ensure robust error handling to prevent execution failures from impacting response generation.",
+      "strategy_name": "Execution Error"
+    },
+    "execution_error_handling": {
+      "mechanism": "other",
+      "reusable_principle": "Robust error handling is necessary to ensure that harmful requests are consistently refused, even in cases of technical failure.",
+      "strategy_name": "Execution Error Handling"
+    },
+    "missing_response": {
+      "mechanism": "other",
+      "reusable_principle": "When no response is generated, the case cannot be evaluated for success or failure.",
+      "strategy_name": "Missing Response"
+    },
+    "no_response": {
+      "mechanism": "other",
+      "reusable_principle": "When no response is provided, it is not possible to assess the model's behavior or strategy.",
+      "strategy_name": "No response"
+    },
+    "technical_validation_error": {
+      "mechanism": "other",
+      "reusable_principle": "Ensure robust error handling and validation mechanisms to prevent empty or malformed responses.",
+      "strategy_name": "Technical Validation Error"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Query Type,Target Model,Strongest Baseline,$\Delta$ Score $\uparrow$,$\Delta$ Refusal $\uparrow$
+Knowledge Query,Gemini-2.5 Flash,FlipAttack,"\textbf{0.099 [0.034, 0.163]}","\textbf{0.109 [0.051, 0.173]}"
+Knowledge Query,GPT-4o,FlipAttack,"\underline{0.028 [-0.034, 0.093]}","\underline{0.038 [-0.026, 0.103]}"
+Knowledge Query,GPT-5.1,Misrepresentation,"\underline{0.013 [-0.090, 0.115]}","\underline{0.026 [-0.077, 0.128]}"
+Knowledge Query,LLaMA-4,Misrepresentation,"\textbf{0.271 [0.184, 0.359]}","\textbf{0.302 [0.214, 0.390]}"
+Knowledge Query,Qwen3-Next,QueryAttack,"\underline{0.003 [-0.044, 0.051]}","\underline{0.006 [-0.038, 0.058]}"
+Viewpoint Query,Gemini-2.5 Flash,FlipAttack,"\textbf{0.134 [0.074, 0.197]}","\textbf{0.138 [0.082, 0.195]}"
+Viewpoint Query,GPT-4o,FlipAttack,"\textbf{0.184 [0.129, 0.241]}","\textbf{0.126 [0.069, 0.189]}"
+Viewpoint Query,GPT-5.1,Misrepresentation,"\textbf{0.278 [0.180, 0.377]}","\textbf{0.296 [0.195, 0.396]}"
+Viewpoint Query,LLaMA-4,Misrepresentation,"\textbf{0.393 [0.314, 0.473]}","\textbf{0.453 [0.371, 0.535]}"
+Viewpoint Query,Qwen3-Next,QueryAttack,"\underline{0.021 [-0.020, 0.064]}","\underline{0.025 [-0.006, 0.063]}"

@@ -1,0 +1,7 @@
+Query,Method,Gemini-2.5 Flash Score,Gemini-2.5 Flash Refusal,GPT-4o Score,GPT-4o Refusal,GPT-5.1 Score,GPT-5.1 Refusal,LLaMA-4 Score,LLaMA-4 Refusal,Qwen3-Next Score,Qwen3-Next Refusal,Average Score,Average Refusal
+Knowledge Query,Direct Malicious Query,0.045,0.955,0.051,0.942,0.0,1.0,0.142,0.846,0.032,0.968,0.054000000000000006,0.9422
+Knowledge Query,Neutralized Query,0.645,0.353,0.587,0.385,0.245,0.75,0.692,0.25,0.3,0.699,0.4937999999999999,0.48739999999999994
+Knowledge Query,Rebuttal Query (Full),0.87,0.103,0.824,0.135,0.299,0.686,0.792,0.147,0.883,0.103,0.7336,0.23479999999999998
+Viewpoint Query,Direct Malicious Query,0.355,0.623,0.314,0.648,0.057,0.943,0.393,0.553,0.031,0.969,0.23000000000000004,0.7472
+Viewpoint Query,Neutralized Query,0.867,0.082,0.626,0.264,0.373,0.604,0.768,0.101,0.417,0.547,0.6102,0.3196
+Viewpoint Query,Rebuttal Query (Full),0.947,0.006,0.914,0.019,0.6,0.371,0.819,0.088,0.947,0.013,0.8453999999999999,0.0994

@@ -1,0 +1,94 @@
+\begin{tabular}{lllcll}
+\toprule
+Query Type & Target Model & Method & $n$ & Score & Refusal \\
+\midrule
+Knowledge & gemini-2.5-flash & FlipAttack & 156 & 0.772 [0.704, 0.834] & 0.212 [0.147, 0.276] \\
+Knowledge & gemini-2.5-flash & PAP_Authority endorsement & 156 & 0.440 [0.362, 0.518] & 0.558 [0.481, 0.635] \\
+Knowledge & gemini-2.5-flash & PAP_Evidence-based Persuasion & 156 & 0.467 [0.389, 0.544] & 0.532 [0.455, 0.609] \\
+Knowledge & gemini-2.5-flash & PAP_Expert Endorsement & 156 & 0.545 [0.468, 0.622] & 0.455 [0.378, 0.532] \\
+Knowledge & gemini-2.5-flash & PAP_Logical appeal & 156 & 0.647 [0.570, 0.723] & 0.353 [0.276, 0.429] \\
+Knowledge & gemini-2.5-flash & PAP_Misrepresentation & 156 & 0.435 [0.358, 0.513] & 0.564 [0.487, 0.641] \\
+Knowledge & gemini-2.5-flash & RebuttalAttack & 156 & 0.671 [0.602, 0.738] & 0.269 [0.205, 0.340] \\
+Knowledge & gemini-2.5-flash & SQL_responses & 156 & 0.716 [0.655, 0.770] & 0.179 [0.122, 0.244] \\
+Knowledge & gemini-2.5-flash & cipher & 156 & 0.683 [0.617, 0.747] & 0.250 [0.186, 0.321] \\
+Knowledge & gpt-4o & FlipAttack & 156 & 0.796 [0.736, 0.853] & 0.173 [0.115, 0.231] \\
+Knowledge & gpt-4o & PAP_Authority endorsement & 156 & 0.538 [0.463, 0.612] & 0.436 [0.359, 0.513] \\
+Knowledge & gpt-4o & PAP_Evidence-based Persuasion & 156 & 0.580 [0.505, 0.654] & 0.385 [0.308, 0.462] \\
+Knowledge & gpt-4o & PAP_Expert Endorsement & 156 & 0.551 [0.476, 0.627] & 0.429 [0.353, 0.506] \\
+Knowledge & gpt-4o & PAP_Logical appeal & 156 & 0.379 [0.304, 0.454] & 0.615 [0.538, 0.692] \\
+Knowledge & gpt-4o & PAP_Misrepresentation & 156 & 0.680 [0.608, 0.748] & 0.295 [0.224, 0.365] \\
+Knowledge & gpt-4o & RebuttalAttack & 156 & 0.778 [0.718, 0.835] & 0.179 [0.122, 0.244] \\
+Knowledge & gpt-4o & SQL_responses & 156 & 0.469 [0.399, 0.538] & 0.455 [0.378, 0.532] \\
+Knowledge & gpt-4o & cipher & 156 & 0.361 [0.289, 0.430] & 0.596 [0.519, 0.673] \\
+Knowledge & gpt-5.1 & FlipAttack & 156 & 0.019 [0.000, 0.045] & 0.981 [0.955, 1.000] \\
+Knowledge & gpt-5.1 & PAP_Authority endorsement & 156 & 0.273 [0.205, 0.344] & 0.724 [0.654, 0.795] \\
+Knowledge & gpt-5.1 & PAP_Evidence-based Persuasion & 156 & 0.229 [0.166, 0.295] & 0.769 [0.699, 0.833] \\
+Knowledge & gpt-5.1 & PAP_Expert Endorsement & 156 & 0.299 [0.229, 0.370] & 0.699 [0.622, 0.769] \\
+Knowledge & gpt-5.1 & PAP_Logical appeal & 156 & 0.458 [0.381, 0.535] & 0.538 [0.462, 0.615] \\
+Knowledge & gpt-5.1 & PAP_Misrepresentation & 156 & 0.277 [0.208, 0.348] & 0.718 [0.647, 0.788] \\
+Knowledge & gpt-5.1 & RebuttalAttack & 156 & 0.325 [0.254, 0.396] & 0.660 [0.583, 0.731] \\
+Knowledge & gpt-5.1 & SQL_responses & 156 & 0.034 [0.010, 0.065] & 0.962 [0.929, 0.987] \\
+Knowledge & gpt-5.1 & cipher & 156 & 0.000 [0.000, 0.000] & 1.000 [1.000, 1.000] \\
+Knowledge & llama-4 & FlipAttack & 156 & 0.514 [0.446, 0.581] & 0.378 [0.301, 0.455] \\
+Knowledge & llama-4 & PAP_Authority endorsement & 156 & 0.721 [0.660, 0.780] & 0.212 [0.154, 0.276] \\
+Knowledge & llama-4 & PAP_Evidence-based Persuasion & 156 & 0.657 [0.587, 0.724] & 0.295 [0.224, 0.365] \\
+Knowledge & llama-4 & PAP_Expert Endorsement & 156 & 0.696 [0.627, 0.760] & 0.269 [0.199, 0.340] \\
+Knowledge & llama-4 & PAP_Logical appeal & 156 & 0.717 [0.654, 0.777] & 0.218 [0.154, 0.282] \\
+Knowledge & llama-4 & PAP_Misrepresentation & 156 & 0.764 [0.700, 0.822] & 0.199 [0.141, 0.263] \\
+Knowledge & llama-4 & RebuttalAttack & 156 & 0.770 [0.711, 0.827] & 0.173 [0.115, 0.237] \\
+Knowledge & llama-4 & SQL_responses & 156 & 0.384 [0.318, 0.450] & 0.532 [0.455, 0.609] \\
+Knowledge & qwen3-next & FlipAttack & 156 & 0.012 [0.002, 0.028] & 0.962 [0.929, 0.987] \\
+Knowledge & qwen3-next & PAP_Authority endorsement & 156 & 0.280 [0.210, 0.350] & 0.718 [0.647, 0.788] \\
+Knowledge & qwen3-next & PAP_Evidence-based Persuasion & 156 & 0.288 [0.218, 0.359] & 0.712 [0.641, 0.782] \\
+Knowledge & qwen3-next & PAP_Expert Endorsement & 156 & 0.371 [0.295, 0.447] & 0.628 [0.551, 0.699] \\
+Knowledge & qwen3-next & PAP_Logical appeal & 156 & 0.396 [0.320, 0.473] & 0.603 [0.526, 0.679] \\
+Knowledge & qwen3-next & PAP_Misrepresentation & 156 & 0.403 [0.327, 0.481] & 0.596 [0.519, 0.673] \\
+Knowledge & qwen3-next & RebuttalAttack & 156 & 0.818 [0.757, 0.874] & 0.160 [0.103, 0.218] \\
+Knowledge & qwen3-next & SQL_responses & 156 & 0.884 [0.837, 0.927] & 0.090 [0.045, 0.135] \\
+Viewpoint & gemini-2.5-flash & FlipAttack & 159 & 0.814 [0.753, 0.870] & 0.145 [0.094, 0.201] \\
+Viewpoint & gemini-2.5-flash & PAP_Authority endorsement & 159 & 0.485 [0.410, 0.562] & 0.497 [0.421, 0.572] \\
+Viewpoint & gemini-2.5-flash & PAP_Evidence-based Persuasion & 159 & 0.455 [0.381, 0.529] & 0.528 [0.453, 0.604] \\
+Viewpoint & gemini-2.5-flash & PAP_Expert Endorsement & 159 & 0.606 [0.535, 0.678] & 0.365 [0.289, 0.440] \\
+Viewpoint & gemini-2.5-flash & PAP_Logical appeal & 159 & 0.455 [0.380, 0.530] & 0.522 [0.447, 0.597] \\
+Viewpoint & gemini-2.5-flash & PAP_Misrepresentation & 159 & 0.479 [0.403, 0.554] & 0.503 [0.428, 0.579] \\
+Viewpoint & gemini-2.5-flash & RebuttalAttack & 159 & 0.871 [0.831, 0.908] & 0.063 [0.025, 0.101] \\
+Viewpoint & gemini-2.5-flash & SQL_responses & 159 & 0.463 [0.399, 0.528] & 0.415 [0.340, 0.491] \\
+Viewpoint & gemini-2.5-flash & cipher & 159 & 0.708 [0.643, 0.768] & 0.220 [0.157, 0.283] \\
+Viewpoint & gpt-4o & FlipAttack & 159 & 0.730 [0.675, 0.779] & 0.145 [0.094, 0.201] \\
+Viewpoint & gpt-4o & PAP_Authority endorsement & 159 & 0.490 [0.417, 0.562] & 0.459 [0.384, 0.535] \\
+Viewpoint & gpt-4o & PAP_Evidence-based Persuasion & 159 & 0.417 [0.347, 0.489] & 0.541 [0.465, 0.616] \\
+Viewpoint & gpt-4o & PAP_Expert Endorsement & 159 & 0.564 [0.491, 0.634] & 0.384 [0.308, 0.459] \\
+Viewpoint & gpt-4o & PAP_Logical appeal & 159 & 0.496 [0.422, 0.567] & 0.453 [0.377, 0.528] \\
+Viewpoint & gpt-4o & PAP_Misrepresentation & 159 & 0.638 [0.570, 0.705] & 0.302 [0.233, 0.377] \\
+Viewpoint & gpt-4o & RebuttalAttack & 159 & 0.881 [0.841, 0.917] & 0.063 [0.025, 0.107] \\
+Viewpoint & gpt-4o & SQL_responses & 159 & 0.503 [0.436, 0.569] & 0.377 [0.302, 0.453] \\
+Viewpoint & gpt-4o & cipher & 159 & 0.425 [0.354, 0.493] & 0.516 [0.440, 0.591] \\
+Viewpoint & gpt-5.1 & FlipAttack & 159 & 0.063 [0.031, 0.101] & 0.937 [0.899, 0.969] \\
+Viewpoint & gpt-5.1 & PAP_Authority endorsement & 159 & 0.436 [0.362, 0.510] & 0.547 [0.472, 0.623] \\
+Viewpoint & gpt-5.1 & PAP_Evidence-based Persuasion & 159 & 0.368 [0.296, 0.440] & 0.616 [0.541, 0.692] \\
+Viewpoint & gpt-5.1 & PAP_Expert Endorsement & 159 & 0.387 [0.314, 0.462] & 0.604 [0.528, 0.679] \\
+Viewpoint & gpt-5.1 & PAP_Logical appeal & 159 & 0.490 [0.412, 0.565] & 0.497 [0.415, 0.579] \\
+Viewpoint & gpt-5.1 & PAP_Misrepresentation & 159 & 0.517 [0.440, 0.591] & 0.465 [0.390, 0.547] \\
+Viewpoint & gpt-5.1 & RebuttalAttack & 159 & 0.620 [0.547, 0.689] & 0.340 [0.270, 0.415] \\
+Viewpoint & gpt-5.1 & SQL_responses & 159 & 0.213 [0.153, 0.278] & 0.774 [0.711, 0.836] \\
+Viewpoint & gpt-5.1 & cipher & 159 & 0.038 [0.013, 0.069] & 0.962 [0.931, 0.987] \\
+Viewpoint & llama-4 & FlipAttack & 159 & 0.263 [0.205, 0.323] & 0.642 [0.566, 0.717] \\
+Viewpoint & llama-4 & PAP_Authority endorsement & 159 & 0.508 [0.436, 0.577] & 0.428 [0.352, 0.503] \\
+Viewpoint & llama-4 & PAP_Evidence-based Persuasion & 159 & 0.461 [0.389, 0.532] & 0.491 [0.415, 0.566] \\
+Viewpoint & llama-4 & PAP_Expert Endorsement & 159 & 0.558 [0.488, 0.627] & 0.371 [0.296, 0.447] \\
+Viewpoint & llama-4 & PAP_Logical appeal & 159 & 0.479 [0.408, 0.550] & 0.465 [0.390, 0.541] \\
+Viewpoint & llama-4 & PAP_Misrepresentation & 159 & 0.693 [0.628, 0.754] & 0.239 [0.176, 0.308] \\
+Viewpoint & llama-4 & RebuttalAttack & 159 & 0.798 [0.749, 0.844] & 0.113 [0.069, 0.164] \\
+Viewpoint & llama-4 & SQL_responses & 159 & 0.391 [0.330, 0.454] & 0.484 [0.409, 0.566] \\
+Viewpoint & llama-4 & cipher & 159 & 0.006 [0.000, 0.019] & 0.994 [0.981, 1.000] \\
+Viewpoint & qwen3-next & FlipAttack & 159 & 0.075 [0.043, 0.110] & 0.868 [0.811, 0.918] \\
+Viewpoint & qwen3-next & PAP_Authority endorsement & 159 & 0.318 [0.247, 0.390] & 0.679 [0.604, 0.748] \\
+Viewpoint & qwen3-next & PAP_Evidence-based Persuasion & 159 & 0.281 [0.211, 0.356] & 0.717 [0.648, 0.786] \\
+Viewpoint & qwen3-next & PAP_Expert Endorsement & 159 & 0.313 [0.244, 0.388] & 0.686 [0.610, 0.755] \\
+Viewpoint & qwen3-next & PAP_Logical appeal & 159 & 0.384 [0.310, 0.458] & 0.610 [0.535, 0.686] \\
+Viewpoint & qwen3-next & PAP_Misrepresentation & 159 & 0.412 [0.337, 0.490] & 0.585 [0.509, 0.660] \\
+Viewpoint & qwen3-next & RebuttalAttack & 159 & 0.929 [0.895, 0.959] & 0.038 [0.013, 0.069] \\
+Viewpoint & qwen3-next & SQL_responses & 159 & 0.839 [0.788, 0.886] & 0.107 [0.063, 0.157] \\
+Viewpoint & qwen3-next & cipher & 159 & 0.524 [0.448, 0.598] & 0.453 [0.377, 0.528] \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,14 @@
+method,method_key
+cipher,cipher
+flipattack,flipattack
+Our_baseline,our_baseline
+Our_meli_query,our_meli_query
+Our_neutral_question,our_neutral_question
+Our_trap,our_trap
+PAP,pap
+PAP_Authority endorsement,pap_authority_endorsement
+PAP_Evidence-based Persuasion,pap_evidence_based_persuasion
+PAP_Expert Endorsement,pap_expert_endorsement
+PAP_Logical appeal,pap_logical_appeal
+PAP_Misrepresentation,pap_misrepresentation
+SQL_responses,sql_responses

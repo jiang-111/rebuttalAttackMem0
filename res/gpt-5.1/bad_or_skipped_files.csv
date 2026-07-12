@@ -1,0 +1,5 @@
+file,reason
+gpt-5.1/eval/stem/evaluation_summary_score_filtered.csv,Cannot infer metadata from path
+gpt-5.1/eval/stem/evaluation_summary_cleaned.csv,Cannot infer metadata from path
+gpt-5.1/eval/value/evaluation_summary_score_filtered.csv,Cannot infer metadata from path
+gpt-5.1/eval/value/evaluation_summary_cleaned.csv,Cannot infer metadata from path
